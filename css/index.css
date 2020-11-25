@@ -1,0 +1,25 @@
+@keyframes anima {
+    0%{
+        color: black;
+
+    }
+    50%{
+        color: blue;
+
+    }
+    100%{
+        color: red;
+    }
+}
+
+.head {
+
+    margin: auto;
+    margin-top: 8px;
+    font-family:cursive;
+    text-shadow: 2px 1px 0px;
+    animation-name: anima;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+
+}
